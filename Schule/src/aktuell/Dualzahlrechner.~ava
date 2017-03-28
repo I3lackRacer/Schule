@@ -1,0 +1,16 @@
+package aktuell;
+
+import java.util.Scanner;
+
+public class Dualzahlrechner {
+
+	public Dualzahlrechner() {
+		System.out.print("Bitte geben sie eine ganze zahl ein -->");
+		@SuppressWarnings("resource")
+		int zahl = new Scanner(System.in).nextInt();
+		for (int i = 0; i < 1; i++) {
+			System.out.println(Integer.toBinaryString(zahl));
+		}
+	}
+
+}
