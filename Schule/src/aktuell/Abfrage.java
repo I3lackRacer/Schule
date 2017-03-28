@@ -15,7 +15,7 @@ public class Abfrage {
 		System.out.println("(1 = Athlet, 2 = Ski, 3 = Schüler)");
 		System.out.print("Abteilung--->");
 		int tmpOver = sc.nextInt();
-		
+		// FUCK OFF
 		if(tmpOver == 1) {
 		
 		System.out.print("Name--->               ");
