@@ -16,7 +16,6 @@ public class Abfrage {
 		System.out.print("Abteilung--->");
 		int tmpOver = sc.nextInt();
 		if(tmpOver == 1) {
-		// Kleiner Test
 		System.out.print("Name--->               ");
 		String tmpName = sc.next();
 		
